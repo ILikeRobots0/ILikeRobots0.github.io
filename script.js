@@ -3,7 +3,8 @@ fetch("https://api.marea.ooo/v1/tides?lat=1.3521&lon=103.8198")  // Singapore co
     .then(response => response.json())
     .then(data => {
         document.getElementById("tide-info").innerText = 
-            `Next High Tide: ${data.next_tide.time} | Height: ${data.next_tide.height}m`;
+            //`Next High Tide: ${data.next_tide.time} | Height: ${data.next_tide.height}m`;
+            'Test'
     });
 
 // Fetch weather data from OpenWeatherMap API
